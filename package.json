@@ -1,0 +1,23 @@
+{
+  "name": "hangman-game-jv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hey-Zeus-byte/Hangman-Game-JV.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hey-Zeus-byte/Hangman-Game-JV/issues"
+  },
+  "homepage": "https://github.com/Hey-Zeus-byte/Hangman-Game-JV#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
