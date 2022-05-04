@@ -84,6 +84,7 @@ function showNotification() {
 }
 
 //Keydown letter press
+// window
 window.addEventListener("keydown", (e) => {
   if (e.keyCode >= 65 && e.keyCode <= 90) {
     // keyCodes for the whole keyboard
@@ -106,6 +107,23 @@ window.addEventListener("keydown", (e) => {
         showNotification();
       }
     }
+  }
+});
+
+wordE1.addEventListener("click", () => {
+  const dummy = document.getElementById("dummy-input");
+  if (!dummy) {
+    const input = document.createElement("input");
+    input.id = "dummy-input";
+    input.style.opacity = "0";
+    input.style.height = "0px";
+    input.style.width = "0px";
+    input.type = "hidden";
+    document.body.appendChild(input);
+    input.focus();
+    console.log(input);
+  } else {
+    dummy.focus();
   }
 });
 
