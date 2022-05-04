@@ -1,8 +1,8 @@
 {
   "name": "hangman-game-jv",
-  "version": "1.0.1",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.0",
+  "description": "Guess the soccer player",
+  "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gh-pages -d dist"
